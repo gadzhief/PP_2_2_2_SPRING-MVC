@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class CarService {
-    private List<Car> cars;
+    private final List<Car> cars;
 
     public CarService() {
         cars = new ArrayList<>();
